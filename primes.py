@@ -2,7 +2,7 @@
 
 def primes(number_of_primes):
     if number_of_primes < 1:
-        raise ValueError(f"Enter a value which is greater than 0")
+        raise ValueError("Enter a value which is greater than 0")
     list = []
     for i in range(2, 9223372036854775807):
         if isPrime(i):
